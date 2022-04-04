@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.qualcomm.hexagon.llvm.config.q6.exe.debug.1300698137">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qualcomm.hexagon.llvm.config.q6.exe.debug.1300698137" moduleId="org.eclipse.cdt.core.settings" name="LLVM_Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qualcomm.ide.ui.view.ourparser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.qualcomm.hexagon.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.qualcomm.hexagon.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.qualcomm.hexagon.llvm.config.q6.exe.debug.1300698137" name="LLVM_Debug" parent="com.qualcomm.hexagon.llvm.config.q6.exe.debug">
+					<folderInfo id="com.qualcomm.hexagon.llvm.config.q6.exe.debug.1300698137." name="/" resourcePath="">
+						<toolChain id="com.qualcomm.hexagon.llvm.toolchain.q6.exe.debug.1045264099" name="Hexagon LLVM Tool Chain" nonInternalBuilderId="com.qualcomm.hexagon.llvm.target.q6.builder.exe.debug" superClass="com.qualcomm.hexagon.llvm.toolchain.q6.exe.debug">
+							<targetPlatform id="com.qualcomm.hexagon.llvm.target.q6.platform.exe.debug.1804194899" name="Debug Platform" superClass="com.qualcomm.hexagon.llvm.target.q6.platform.exe.debug"/>
+							<builder arguments="-k" autoBuildTarget="all" buildPath="${workspace_loc:/helloWorld}/LLVM_Debug" cleanBuildTarget="clean" id="org.eclipse.cdt.build.core.internal.builder.2045215111" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="org.eclipse.cdt.build.core.internal.builder"/>
+							<tool id="com.qualcomm.hexagon.llvm.tool.q6.archiver.base.183340971" name="Hexagon Archiver" superClass="com.qualcomm.hexagon.llvm.tool.q6.archiver.base"/>
+							<tool id="com.qualcomm.hexagon.llvm.tool.q6.cpp.compiler.exe.debug.439615566" name="Hexagon C++ Compiler" superClass="com.qualcomm.hexagon.llvm.tool.q6.cpp.compiler.exe.debug">
+								<option id="com.qualcomm.hexagon.llvm.q6.cpp.compiler.exe.debug.option.optimization.level.1164161792" name="Optimization Level" superClass="com.qualcomm.hexagon.llvm.q6.cpp.compiler.exe.debug.option.optimization.level" value="com.qualcomm.hexagon.llvm.q6.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="com.qualcomm.hexagon.llvm.q6.cpp.compiler.exe.debug.option.debugging.level.1912105993" name="Debug Level" superClass="com.qualcomm.hexagon.llvm.q6.cpp.compiler.exe.debug.option.debugging.level" value="com.qualcomm.hexagon.llvm.q6.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.qualcomm.hexagon.llvm.q6.cpp.compiler.option.include.paths.1375551507" name="Include paths (-I)" superClass="com.qualcomm.hexagon.llvm.q6.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/stddef&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_TOOLS_ROOT}/Tools/target/hexagon/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/incs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/qnx&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/addons/compute/libs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/remote/ship/${V}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/qnx/ship/${V}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/rtld/ship/${V_without_Debug_or_Release_or_ReleaseG}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/remote/ship/${V_without_Debug_or_Release_or_ReleaseG}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_PREBUILT_DIR},${${d}_PREBUILT_DIR}/prebuilt/${V_without_Debug_or_Release_or_ReleaseG},}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR}},,${${d}_PREBUILT_DIR_DEFAULT}/prebuilt/${V_without_Debug_or_Release_or_ReleaseG}}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_PREBUILT_DIR},\&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR}},,\&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR},${${d}_DIR}/${V}/ship,}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR},${${d}_DIR}/${V}/ship,}}&quot;"/>
+								</option>
+								<option id="com.qualcomm.hexagon.llvm.q6.cpp.compiler.arch.1977802948" superClass="com.qualcomm.hexagon.llvm.q6.cpp.compiler.arch" value="com.qualcomm.hexagon.llvm.q6.cpp.compiler.arch.v65" valueType="enumerated"/>
+								<inputType id="com.qualcomm.hexagon.llvm.tool.q6.cpp.compiler.input.619992354" superClass="com.qualcomm.hexagon.llvm.tool.q6.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.qualcomm.hexagon.llvm.tool.q6.c.compiler.exe.debug.2126356781" name="Hexagon C Compiler" superClass="com.qualcomm.hexagon.llvm.tool.q6.c.compiler.exe.debug">
+								<option defaultValue="com.qualcomm.hexagon.llvm.q6.c.optimization.level.none" id="com.qualcomm.hexagon.llvm.q6.c.compiler.exe.debug.option.optimization.level.148826765" name="Optimization Level" superClass="com.qualcomm.hexagon.llvm.q6.c.compiler.exe.debug.option.optimization.level" valueType="enumerated"/>
+								<option id="com.qualcomm.hexagon.llvm.q6.c.compiler.exe.debug.option.debugging.level.608864848" name="Debug Level" superClass="com.qualcomm.hexagon.llvm.q6.c.compiler.exe.debug.option.debugging.level" value="com.qualcomm.hexagon.llvm.q6.c.debugging.level.max" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.qualcomm.hexagon.llvm.q6.c.compiler.option.include.paths.329957281" name="Include paths (-I)" superClass="com.qualcomm.hexagon.llvm.q6.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/stddef&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_TOOLS_ROOT}/Tools/target/hexagon/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/incs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/qnx&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/addons/compute/libs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/remote/ship/${V}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/qnx/ship/${V}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/rtld/ship/${V_without_Debug_or_Release_or_ReleaseG}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/remote/ship/${V_without_Debug_or_Release_or_ReleaseG}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_PREBUILT_DIR},${${d}_PREBUILT_DIR}/prebuilt/${V_without_Debug_or_Release_or_ReleaseG},}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR}},,${${d}_PREBUILT_DIR_DEFAULT}/prebuilt/${V_without_Debug_or_Release_or_ReleaseG}}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_PREBUILT_DIR},\&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR}},,\&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR},${${d}_DIR}/${V}/ship,}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR},${${d}_DIR}/${V}/ship,}}&quot;"/>
+								</option>
+								<option id="com.qualcomm.hexagon.llvm.q6.c.compiler.arch.1946964917" superClass="com.qualcomm.hexagon.llvm.q6.c.compiler.arch" value="com.qualcomm.hexagon.llvm.q6.c.compiler.arch.v65" valueType="enumerated"/>
+								<inputType id="com.qualcomm.hexagon.llvm.tool.q6.c.compiler.input.897248977" superClass="com.qualcomm.hexagon.llvm.tool.q6.c.compiler.input"/>
+							</tool>
+							<tool id="com.qualcomm.hexagon.llvm.tool.q6.c.linker.exe.debug.1459509256" name="Hexagon C Linker" superClass="com.qualcomm.hexagon.llvm.tool.q6.c.linker.exe.debug">
+								<option id="com.qualcomm.hexagon.llvm.q6.c.link.arch.605144039" superClass="com.qualcomm.hexagon.llvm.q6.c.link.arch" value="com.qualcomm.hexagon.llvm.q6.c.link.arch.v65" valueType="enumerated"/>
+							</tool>
+							<tool id="com.qualcomm.hexagon.llvm.tool.q6.cpp.linker.exe.debug.110961269" name="Hexagon C++ Linker" superClass="com.qualcomm.hexagon.llvm.tool.q6.cpp.linker.exe.debug">
+								<option id="com.qualcomm.hexagon.llvm.q6.cpp.link.arch.375953028" superClass="com.qualcomm.hexagon.llvm.q6.cpp.link.arch" value="com.qualcomm.hexagon.llvm.q6.cpp.link.arch.v65" valueType="enumerated"/>
+								<inputType id="com.qualcomm.hexagon.llvm.tool.q6.cpp.linker.input.561273871" superClass="com.qualcomm.hexagon.llvm.tool.q6.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.qualcomm.hexagon.llvm.tool.q6.assembler.exe.debug.1501849561" name="Hexagon Assembler" superClass="com.qualcomm.hexagon.llvm.tool.q6.assembler.exe.debug">
+								<option id="com.qualcomm.hexagon.llvm.q6.assembler.option.debugging.level.1530274539" name="Debug Level" superClass="com.qualcomm.hexagon.llvm.q6.assembler.option.debugging.level" value="com.qualcomm.hexagon.llvm.q6.asm.debugging.level.max" valueType="enumerated"/>
+								<option id="com.qualcomm.hexagon.llvm.q6.asm.arch.1443782909" superClass="com.qualcomm.hexagon.llvm.q6.asm.arch" value="com.qualcomm.hexagon.llvm.q6.asm.arch.v65" valueType="enumerated"/>
+								<inputType id="com.qualcomm.hexagon.llvm.tool.q6.assembler.input.366693038" superClass="com.qualcomm.hexagon.llvm.tool.q6.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.qualcomm.hexagon.llvm.config.q6.exe.release.1776577360">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qualcomm.hexagon.llvm.config.q6.exe.release.1776577360" moduleId="org.eclipse.cdt.core.settings" name="LLVM_Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.qualcomm.ide.ui.view.ourparser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.qualcomm.hexagon.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.qualcomm.hexagon.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="" id="com.qualcomm.hexagon.llvm.config.q6.exe.release.1776577360" name="LLVM_Release" parent="com.qualcomm.hexagon.llvm.config.q6.exe.release">
+					<folderInfo id="com.qualcomm.hexagon.llvm.config.q6.exe.release.1776577360." name="/" resourcePath="">
+						<toolChain id="com.qualcomm.hexagon.llvm.toolchain.q6.exe.release.1844193865" name="Hexagon LLVM Tool Chain" nonInternalBuilderId="com.qualcomm.hexagon.llvm.target.q6.builder.exe.release" superClass="com.qualcomm.hexagon.llvm.toolchain.q6.exe.release">
+							<targetPlatform id="com.qualcomm.hexagon.llvm.target.q6.platform.exe.release.1677860498" name="Debug Platform" superClass="com.qualcomm.hexagon.llvm.target.q6.platform.exe.release"/>
+							<builder arguments="-k" autoBuildTarget="all" buildPath="${workspace_loc:/helloWorld}/LLVM_Release" cleanBuildTarget="clean" id="org.eclipse.cdt.build.core.internal.builder.836335383" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="org.eclipse.cdt.build.core.internal.builder"/>
+							<tool id="com.qualcomm.hexagon.llvm.tool.q6.archiver.base.771934832" name="Hexagon Archiver" superClass="com.qualcomm.hexagon.llvm.tool.q6.archiver.base"/>
+							<tool id="com.qualcomm.hexagon.llvm.tool.q6.cpp.compiler.exe.release.1846264138" name="Hexagon C++ Compiler" superClass="com.qualcomm.hexagon.llvm.tool.q6.cpp.compiler.exe.release">
+								<option id="com.qualcomm.hexagon.llvm.q6.cpp.compiler.exe.release.option.optimization.level.1349988330" name="Optimization Level" superClass="com.qualcomm.hexagon.llvm.q6.cpp.compiler.exe.release.option.optimization.level" value="com.qualcomm.hexagon.llvm.q6.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="com.qualcomm.hexagon.llvm.q6.cpp.compiler.exe.release.option.debugging.level.1311052857" name="Debug Level" superClass="com.qualcomm.hexagon.llvm.q6.cpp.compiler.exe.release.option.debugging.level" value="com.qualcomm.hexagon.llvm.q6.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.qualcomm.hexagon.llvm.q6.cpp.compiler.option.include.paths.1917518860" name="Include paths (-I)" superClass="com.qualcomm.hexagon.llvm.q6.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/stddef&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_TOOLS_ROOT}/Tools/target/hexagon/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/incs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/qnx&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/addons/compute/libs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/remote/ship/${V}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/qnx/ship/${V}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/rtld/ship/${V_without_Debug_or_Release_or_ReleaseG}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/remote/ship/${V_without_Debug_or_Release_or_ReleaseG}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_PREBUILT_DIR},${${d}_PREBUILT_DIR}/prebuilt/${V_without_Debug_or_Release_or_ReleaseG},}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR}},,${${d}_PREBUILT_DIR_DEFAULT}/prebuilt/${V_without_Debug_or_Release_or_ReleaseG}}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_PREBUILT_DIR},\&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR}},,\&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR},${${d}_DIR}/${V}/ship,}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR},${${d}_DIR}/${V}/ship,}}&quot;"/>
+								</option>
+								<option id="com.qualcomm.hexagon.llvm.q6.cpp.compiler.arch.1160162881" superClass="com.qualcomm.hexagon.llvm.q6.cpp.compiler.arch" value="com.qualcomm.hexagon.llvm.q6.cpp.compiler.arch.v65" valueType="enumerated"/>
+								<inputType id="com.qualcomm.hexagon.llvm.tool.q6.cpp.compiler.input.985077935" superClass="com.qualcomm.hexagon.llvm.tool.q6.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.qualcomm.hexagon.llvm.tool.q6.c.compiler.exe.release.1951241888" name="Hexagon C Compiler" superClass="com.qualcomm.hexagon.llvm.tool.q6.c.compiler.exe.release">
+								<option defaultValue="com.qualcomm.hexagon.llvm.q6.c.optimization.level.most" id="com.qualcomm.hexagon.llvm.q6.c.compiler.exe.release.option.optimization.level.1367594405" name="Optimization Level" superClass="com.qualcomm.hexagon.llvm.q6.c.compiler.exe.release.option.optimization.level" valueType="enumerated"/>
+								<option id="com.qualcomm.hexagon.llvm.q6.c.compiler.exe.release.option.debugging.level.509435665" name="Debug Level" superClass="com.qualcomm.hexagon.llvm.q6.c.compiler.exe.release.option.debugging.level" value="com.qualcomm.hexagon.llvm.q6.c.debugging.level.none" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.qualcomm.hexagon.llvm.q6.c.compiler.option.include.paths.808843456" name="Include paths (-I)" superClass="com.qualcomm.hexagon.llvm.q6.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/stddef&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_TOOLS_ROOT}/Tools/target/hexagon/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/incs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/qnx&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/addons/compute/libs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/remote/ship/${V}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/qnx/ship/${V}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/rtld/ship/${V_without_Debug_or_Release_or_ReleaseG}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/ipc/fastrpc/remote/ship/${V_without_Debug_or_Release_or_ReleaseG}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_PREBUILT_DIR},${${d}_PREBUILT_DIR}/prebuilt/${V_without_Debug_or_Release_or_ReleaseG},}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR}},,${${d}_PREBUILT_DIR_DEFAULT}/prebuilt/${V_without_Debug_or_Release_or_ReleaseG}}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_PREBUILT_DIR},\&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR}},,\&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR},${${d}_DIR}/${V}/ship,}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${${d}_DIR},${${d}_DIR}/${V}/ship,}}&quot;"/>
+								</option>
+								<option id="com.qualcomm.hexagon.llvm.q6.c.compiler.arch.130488902" superClass="com.qualcomm.hexagon.llvm.q6.c.compiler.arch" value="com.qualcomm.hexagon.llvm.q6.c.compiler.arch.v65" valueType="enumerated"/>
+								<inputType id="com.qualcomm.hexagon.llvm.tool.q6.c.compiler.input.1675211289" superClass="com.qualcomm.hexagon.llvm.tool.q6.c.compiler.input"/>
+							</tool>
+							<tool id="com.qualcomm.hexagon.llvm.tool.q6.c.linker.exe.release.2086317210" name="Hexagon C Linker" superClass="com.qualcomm.hexagon.llvm.tool.q6.c.linker.exe.release">
+								<option id="com.qualcomm.hexagon.llvm.q6.c.link.arch.2070983013" superClass="com.qualcomm.hexagon.llvm.q6.c.link.arch" value="com.qualcomm.hexagon.llvm.q6.c.link.arch.v65" valueType="enumerated"/>
+							</tool>
+							<tool id="com.qualcomm.hexagon.llvm.tool.q6.cpp.linker.exe.release.1451902811" name="Hexagon C++ Linker" superClass="com.qualcomm.hexagon.llvm.tool.q6.cpp.linker.exe.release">
+								<option id="com.qualcomm.hexagon.llvm.q6.cpp.link.arch.1071055108" superClass="com.qualcomm.hexagon.llvm.q6.cpp.link.arch" value="com.qualcomm.hexagon.llvm.q6.cpp.link.arch.v65" valueType="enumerated"/>
+								<inputType id="com.qualcomm.hexagon.llvm.tool.q6.cpp.linker.input.496831401" superClass="com.qualcomm.hexagon.llvm.tool.q6.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.qualcomm.hexagon.llvm.tool.q6.assembler.exe.release.719500640" name="Hexagon Assembler" superClass="com.qualcomm.hexagon.llvm.tool.q6.assembler.exe.release">
+								<option id="com.qualcomm.hexagon.llvm.q6.assembler.option.debugging.level.834989357" name="Debug Level" superClass="com.qualcomm.hexagon.llvm.q6.assembler.option.debugging.level" value="com.qualcomm.hexagon.llvm.q6.asm.debugging.level.none" valueType="enumerated"/>
+								<option id="com.qualcomm.hexagon.llvm.q6.asm.arch.1262333432" superClass="com.qualcomm.hexagon.llvm.q6.asm.arch" value="com.qualcomm.hexagon.llvm.q6.asm.arch.v65" valueType="enumerated"/>
+								<inputType id="com.qualcomm.hexagon.llvm.tool.q6.assembler.input.1937283752" superClass="com.qualcomm.hexagon.llvm.tool.q6.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="helloWorld.com.qualcomm.hexagon.llvm.target.q6.exe.904959678" name="Executable (.exe)" projectType="com.qualcomm.hexagon.llvm.target.q6.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.qualcomm.hexagon.llvm.config.q6.exe.debug.1300698137;com.qualcomm.hexagon.llvm.config.q6.exe.debug.1300698137.;com.qualcomm.hexagon.llvm.tool.q6.cpp.compiler.exe.debug.439615566;com.qualcomm.hexagon.llvm.tool.q6.cpp.compiler.input.619992354">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qualcomm.hexagon.discovery.HexagonLLVMManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.qualcomm.hexagon.llvm.config.q6.exe.debug.1300698137;com.qualcomm.hexagon.llvm.config.q6.exe.debug.1300698137.;com.qualcomm.hexagon.llvm.tool.q6.c.compiler.exe.debug.2126356781;com.qualcomm.hexagon.llvm.tool.q6.c.compiler.input.897248977">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qualcomm.hexagon.discovery.HexagonLLVMManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.qualcomm.hexagon.llvm.config.q6.exe.release.1776577360;com.qualcomm.hexagon.llvm.config.q6.exe.release.1776577360.;com.qualcomm.hexagon.llvm.tool.q6.cpp.compiler.exe.release.1846264138;com.qualcomm.hexagon.llvm.tool.q6.cpp.compiler.input.985077935">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qualcomm.hexagon.discovery.HexagonLLVMManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.qualcomm.hexagon.llvm.config.q6.exe.release.1776577360;com.qualcomm.hexagon.llvm.config.q6.exe.release.1776577360.;com.qualcomm.hexagon.llvm.tool.q6.c.compiler.exe.release.1951241888;com.qualcomm.hexagon.llvm.tool.q6.c.compiler.input.1675211289">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qualcomm.hexagon.discovery.HexagonLLVMManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>

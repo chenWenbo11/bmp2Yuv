@@ -1,0 +1,5 @@
+<project type="global">
+   <property array="false" name="HEXAGON_TOOLS_ROOT" type="0" value="C:/Qualcomm/Hexagon_SDK/4.1.0.4/tools/HEXAGON_Tools/8.4.05"/>
+   <property array="false" name="HEXAGON_SDK_ROOT" type="0" value="C:/Qualcomm/Hexagon_SDK/4.1.0.4"/>
+   <property array="false" name="HexagonProcessorArchitecture" type="0" value="V65 (-mv65)"/>
+</project>
